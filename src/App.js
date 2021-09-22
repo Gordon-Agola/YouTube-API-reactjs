@@ -17,23 +17,6 @@ const App = () => {
       </Router>{" "}
     </div>
   );
-  // return React.createElement("div", {}, [
-  //     React.createElement("h1", {}, "wetube"),
-  //React.createElement(Video, {
-  //         title: "The Best Video in youtube",
-  //         dateAdded: "4 days ago",
-  //         channel: "News Channel",
-  //     }),
-  //     React.createElement(Video, {
-  //         title: "The Cool Video in youtube",
-  //         dateAdded: "12 days ago",
-  //         channel: "Local Channel",
-  //     }),
-  //     React.createElement(Video, {
-  //         title: "The best video in youtube",
-  //         dateAdded: "5 days ago",
-  //         channel: "Learning Channel",
-  //     }),
-  //]);
+
 };
 ReactDOM.render(React.createElement(App), document.getElementById("root"));
